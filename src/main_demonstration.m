@@ -1,5 +1,4 @@
 % Author: Mohammad Asim
-% CYSE-729 - Project 1
 
 % This is the main file that loads both our compress_image() and reconst() function
 
@@ -38,3 +37,4 @@ mse = mean(diff .^ 2);  % mean squared error
 psnr_val = 10 * log10(255^2 / mse);
 
 fprintf('PSNR: %.2f dB\n', psnr_val);
+
